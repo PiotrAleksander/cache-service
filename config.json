@@ -1,0 +1,20 @@
+{
+  "routes": [
+    {
+      "route": "/beers",
+      "method": "GET",
+      "cacheNameSetter": "setCacheName",
+      "expiration": null,
+      "requestTo": "https://api.punkapi.com/v2",
+      "results": null
+    },
+    {
+      "route": "/beer",
+      "method": "GET",
+      "cacheNameSetter": "setCacheName",
+      "expiration": null,
+      "requestTo": "https://api.punkapi.com/v2",
+      "results": "0"
+    }
+  ]
+}
